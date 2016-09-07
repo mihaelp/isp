@@ -1,0 +1,212 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .sectionH,
+  .flipInY,
+  .toLeft,
+  .toRight,
+  .center-t,
+  .mani{
+    /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+  }
+  .manager{
+  	padding: 0 20px;
+  }
+  .manager img{
+  	max-width: 240px;
+  }
+  .place ul li{
+  	font-size: 20px;
+  }
+  .social{
+  	position: relative;
+  	top: 20px;
+  	left: 5px;
+  }
+  .social span{
+  	margin: 0;
+  }
+  .carousel .item {
+    height: 576px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .tarif{
+  	width: 70%;
+    margin-top: 20px;
+  }
+  .manager{
+  	padding: 0 10px;
+  }
+  .manager img{
+  	max-width: 200px;
+  }
+  .section-descr{
+  	padding: 10px 0 5px;
+  }
+  .row{
+    margin: 0;
+  }
+  nav ul li p {
+    padding: 30px 10px;
+    font-size: .8em;
+    letter-spacing: 1px;
+  }
+  .top_nav{
+    display: none;
+  }
+  .carousel {
+  	margin-top: 0;
+  }
+  .c-hamburger,
+  .c-hamburger--htx{
+    display: block;
+  }
+  .carousel .item {
+    height: 400px;
+  }
+  .carousel .img-control{
+  	font-size: 40px;
+  }
+  .carousel-caption h1{
+  	font-size: 40px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .section-header{
+  	width: 250px;
+  	font-size: 25px;
+  	padding: 0 10px;
+  }
+  .section-descr{
+  	font-size: 16px;
+  }
+  .contact-form,
+  .place{
+  	margin: 20px 0;
+  }
+  footer{
+    padding: 10px 0;
+  }
+  footer h4{
+    font-size: 14px;
+  }
+  .place ul li{
+  	font-size: 18px;
+  }
+  .social{
+    font-size: 14px;
+  }
+  .social span{
+  	margin: 0 5px;
+  }
+  .c-hamburger {
+    width: 48px;
+    height: 48px;
+  }
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    right: 10px;
+    height: 3px;
+    background: white;
+  }
+
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+  }
+
+  .c-hamburger span::before {
+    top: -10px;
+  }
+
+  .c-hamburger span::after {
+    bottom: -10px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .tarif{
+  	width: 100%;
+    margin-top: 20px;
+  }
+  footer h4{
+    font-size: 13px;
+  }
+  .place ul li{
+  	font-size: 16px;
+  }
+  .social{
+    font-size: 13px;
+  }
+  .social span{
+  	margin: 0 5px;
+  }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
